@@ -15,4 +15,13 @@
     text-align: center;
     font-size:30px;
 }
+.container{
+    height:500px;
+    width:450px;
+    background-color:rgb(62, 166, 78);
+    margin-left:550px;
+    margin-top:80px;
+    border-radius: 2rem;
+    border:5px solid white;
+}
 
