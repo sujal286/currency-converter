@@ -24,4 +24,10 @@
     border-radius: 2rem;
     border:5px solid white;
 }
-
+.box{
+    margin-left:150px;
+}
+input::placeholder {
+    font-size:20px;
+    color: gray;   
+}
