@@ -24,10 +24,38 @@
     border-radius: 2rem;
     border:5px solid white;
 }
+.h2
+{
+    margin-left:100px;
+}
 .box{
-    margin-left:150px;
+    margin-left:30px;
 }
 input::placeholder {
     font-size:20px;
     color: gray;   
+}
+.body{
+    margin-top:20px;
+    margin-left:30px;
+}
+form select,button,input{
+    width:400px;
+    height:30px;
+}
+.body2{
+    margin-left:30px;
+  
+}
+i{
+   margin-left:230px;
+   margin-top:50px;
+}
+.exe{
+    height:50px;
+    margin-left:30px;
+    margin-top:80px;
+    background-color:black;
+    color:white;
+    border-radius:10px;
 }

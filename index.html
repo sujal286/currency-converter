@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRENCY-CONVERTER</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
 </head>
 <body>
     <div class="main">
@@ -14,18 +15,36 @@
         <h2>ENTER AMOUNT</h2>
         <br>
         <input type="text" placeholder="Amount">
-        <h3>from</h3>
+      </div>
+      <div class="body">
+        <img scr="https://flagsapi.com/US/flat/64.png">
+        <h3>FROM</h3>
         <form>
             <select>
                 <option>USD</option>
-                <option>rupee</option>
-                <option>rubel</option>
-                <option>yen</option>
+                <option>RUPEE</option>
+                <option>RUBEL</option>
+                <option>YEN</option>
             </select>
         </form>
-      </div>
+    </div>
+     <i class="fa-solid fa-arrow-right-arrow-left"></i>
+     <div class="body2">
+        <img scr="https://flagsapi.com/US/flat/64.png">
+        <h3>TO</h3>
+        <form>
+            <select>
+                <option>RUPEE</option>
+                <option>USD</option>
+                <option>RUBEL</option>
+                <option>YEN</option>
+            </select>
+        </form>
+     </div>
+     <button class="exe">GET EXCHANGE RATE</button>
      </div>
     </div>
 </body>
-<script></script>
+     <script src="script.js"></script>
+     <script scr="codes.js"></script>
 </html>
